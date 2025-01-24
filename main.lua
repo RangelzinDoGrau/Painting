@@ -93,7 +93,7 @@ LocalPlayer.CharacterAdded:Connect(function(character)
 	-- Parte 3: Aumentar a velocidade do jogador
 	----------------------------------------------------------------
 	-- Exemplo definindo WalkSpeed para 32 (duas vezes o padrão 16)
-	hum.WalkSpeed = 32
+	hum.WalkSpeed = 100
 end)
 
 -- Se a Character já existir, chamamos manualmente
